@@ -9,3 +9,12 @@
 #include <string.h>
 #include <stdio.h>
 using namespace std;
+
+
+int main() 
+{
+	onlyDisplay od;
+	cout << "Press F11 for better Experience...\n";
+	od.authentication();
+	return 0;
+}
